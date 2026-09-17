@@ -7,25 +7,25 @@
 ## Pages
 
 ### בית
-https://-0f2df9a8.zappy5.app
+https://example.com
 חולמים על ממ״ד אבל חוששים מהבירוקרטיה? ממ״ד הצפון מלווה אתכם מבדיקת זכאות חינם ועד מסירת המפתח. שקיפות מלאה, ליווי אישי ותוצאה מושלמת. התקשרו עוד היום!
 
 ### תודה רבה - פנייתך התקבלה | ממ״ד הצפון
-https://-0f2df9a8.zappy5.app/thank-you
+https://example.com/thank-you
 תודה על פנייתך לממ״ד הצפון. קיבלנו את ההודעה ונחזור אליך בהקדם האפשרי בנוגע לבניית ממ״ד בצפון.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-0f2df9a8.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-0f2df9a8.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-0f2df9a8.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -35,8 +35,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-0f2df9a8.zappy5.app
-- Endpoint: https://-0f2df9a8.zappy5.app/api/email/contact-form
+- URL: https://example.com
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -65,6 +65,6 @@ Construction & Home Security
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-0f2df9a8.zappy5.app/sitemap.xml
-- Robots: https://-0f2df9a8.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-0f2df9a8.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt

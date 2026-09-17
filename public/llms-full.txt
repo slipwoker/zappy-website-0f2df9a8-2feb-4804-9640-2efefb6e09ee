@@ -2,13 +2,13 @@
 
 Mamad HaTzafon (Northern Mamad) is a professional, full-service company that guides Israeli homeowners through the entire process of building a safe room (mamad) — from initial eligibility checks and government funding applications, through planning, permits, and construction, all the way to final handover. The brand positions itself as a single trusted address for a complex bureaucratic and construction journey, emphasizing reliability, transparency, and hands-on client support. The tone is calm, authoritative, and reassuring, targeting homeowners who feel overwhelmed by the process and need a professional to handle it for them.
 
-Source: https://-0f2df9a8.zappy5.app
+Source: https://example.com
 
 ---
 
 ## בניית ממ״ד בצפון — מליווי מלא עד מסירה | ממ״ד הצפון
 
-URL: https://-0f2df9a8.zappy5.app
+URL: https://example.com
 Description: חולמים על ממ״ד אבל חוששים מהבירוקרטיה? ממ״ד הצפון מלווה אתכם מבדיקת זכאות חינם ועד מסירת המפתח. שקיפות מלאה, ליווי אישי ותוצאה מושלמת. התקשרו עוד היום!
 
 בניית ממ״ד בצפון — מליווי מלא עד מסירה | ממ״ד הצפון
@@ -921,7 +921,7 @@ Description: חולמים על ממ״ד אבל חוששים מהבירוקרטי
 
 ## מדיניות פרטיות
 
-URL: https://-0f2df9a8.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1175,7 +1175,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-0f2df9a8.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1438,7 +1438,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-0f2df9a8.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1720,7 +1720,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה רבה - פנייתך התקבלה | ממ״ד הצפון
 
-URL: https://-0f2df9a8.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: תודה על פנייתך לממ״ד הצפון. קיבלנו את ההודעה ונחזור אליך בהקדם האפשרי בנוגע לבניית ממ״ד בצפון.
 
 תודה רבה - פנייתך התקבלה | ממ״ד הצפון
