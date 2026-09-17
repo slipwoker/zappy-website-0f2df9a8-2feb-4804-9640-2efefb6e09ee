@@ -5290,6 +5290,308 @@ html body .index-transparency-section__cards { display: grid !important; }
   padding: 20px !important;
 }
 }
+
+@media (max-width: 768px) {
+.index-hero-section,
+  .index-lead-capture-section,
+  .index-services-section,
+  .index-process-section,
+  .index-showcase-section,
+  .index-transparency-section,
+  .index-faq-section,
+  .index-final-cta-section {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.index-hero-section {
+  min-height: auto !important;
+  align-items: flex-start;
+  padding-top: 56px !important;
+  padding-bottom: 48px !important;
+}
+
+.index-hero-section .display-xl {
+  font-size: 1.9rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 10px !important;
+}
+
+.index-hero-section .hero-subtitle {
+  font-size: 1.1rem !important;
+  margin-bottom: 8px !important;
+}
+
+.index-hero-section .hero-description {
+  font-size: 0.95rem !important;
+  line-height: 1.55 !important;
+  margin-bottom: 16px !important;
+}
+
+.index-hero-section .hero-eyebrow {
+  margin-bottom: 10px !important;
+  font-size: 0.8rem !important;
+}
+
+.index-hero-section .hero-copy {
+  padding: 16px 0 !important;
+}
+
+.index-hero-section .trust-bullets {
+  gap: 8px !important;
+  margin-bottom: 16px !important;
+}
+
+.index-hero-section .trust-bullets li {
+  font-size: 0.9rem !important;
+  gap: 8px !important;
+}
+
+.index-lead-capture-section .index-lc-explanation h2,
+  .index-services-section .services-intro h2,
+  .index-process-section .process-header h2,
+  .index-showcase-section__intro h2,
+  .index-transparency-section h2,
+  .index-faq-section__title,
+  .index-final-cta-section__title {
+  font-size: 1.6rem !important;
+  line-height: 1.3 !important;
+}
+
+.index-services-section .services-intro,
+  .index-process-section .process-header,
+  .index-faq-section__header {
+  margin-bottom: 24px !important;
+}
+
+.index-lead-capture-section .index-lc-grid {
+  gap: 20px !important;
+}
+
+.index-lead-capture-section .index-lc-reassurance-list {
+  gap: 16px !important;
+}
+
+.index-lead-capture-section .index-lc-reassurance-item {
+  grid-template-columns: 44px 1fr !important;
+  gap: 12px !important;
+}
+
+.index-lead-capture-section .index-lc-icon-ring {
+  width: 44px !important;
+  height: 44px !important;
+}
+
+.index-lead-capture-section .index-lc-reassurance-text h3 {
+  font-size: 1.15rem !important;
+}
+
+.index-lead-capture-section .index-lc-form-card {
+  padding: 20px !important;
+}
+
+.index-lead-capture-section .index-lc-form-card h3 {
+  font-size: 1.25rem !important;
+}
+
+.index-lead-capture-section .index-lc-form-instruction {
+  margin-bottom: 16px !important;
+}
+
+.index-lead-capture-section .index-lc-contact-form {
+  gap: 12px !important;
+}
+
+.index-lead-capture-section .index-lc-intro {
+  margin-bottom: 20px !important;
+}
+
+.index-lead-capture-section .index-lc-disclaimer {
+  margin-top: 14px !important;
+}
+
+.index-services-section .services-grid {
+  grid-template-columns: 1fr !important;
+  gap: 16px !important;
+  margin-bottom: 24px !important;
+}
+
+.index-services-section .service-card,
+  .index-services-section .service-card.wide-card {
+  grid-column: span 1 !important;
+}
+
+.index-services-section .service-card {
+  padding: 20px !important;
+}
+
+.index-services-section .icon-ring {
+  width: 52px !important;
+  height: 52px !important;
+  margin-bottom: 14px !important;
+}
+
+.index-services-section .service-card h3 {
+  font-size: 1.2rem !important;
+}
+
+.index-services-section .stage-marker {
+  margin-bottom: 10px !important;
+}
+
+.index-services-section .reassurance-strip {
+  padding: 20px 16px !important;
+}
+
+.index-process-section .process-steps {
+  grid-template-columns: 1fr !important;
+  gap: 14px !important;
+  margin-bottom: 24px !important;
+}
+
+.index-process-section .step-card {
+  padding: 16px !important;
+  gap: 12px !important;
+}
+
+.index-process-section .step-number {
+  font-size: 1.7rem !important;
+  min-width: 40px !important;
+}
+
+.index-process-section .step-content h3 {
+  font-size: 1.15rem !important;
+}
+
+.index-process-section .process-cta {
+  gap: 12px !important;
+}
+
+.index-showcase-section__container {
+  gap: 24px !important;
+}
+
+.index-showcase-section__media {
+  gap: 16px !important;
+}
+
+.index-showcase-section__image-grid {
+  grid-template-columns: 1fr !important;
+  gap: 16px !important;
+}
+
+.index-showcase-section__project-cards {
+  grid-template-columns: 1fr !important;
+  gap: 16px !important;
+}
+
+.index-showcase-section__project-card {
+  padding: 18px !important;
+}
+
+.index-showcase-section__project-card-header {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.index-showcase-section__intro > p {
+  margin-bottom: 16px !important;
+}
+
+.index-transparency-section__cards {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+
+.index-transparency-section__card {
+  padding: 20px !important;
+  gap: 10px !important;
+}
+
+.index-transparency-section__card h3 {
+  font-size: 1.2rem !important;
+}
+
+.index-transparency-section__distinction-band {
+  padding: 18px !important;
+  gap: 16px !important;
+}
+
+.index-transparency-section__header > p {
+  margin-bottom: 20px !important;
+}
+
+.index-faq-section__layout {
+  gap: 20px !important;
+}
+
+.index-faq-section__accordion {
+  gap: 10px !important;
+}
+
+.index-faq-section__question {
+  padding: 14px 16px !important;
+}
+
+.index-faq-section__question-text {
+  font-size: 0.98rem !important;
+}
+
+.index-faq-section__answer p {
+  padding: 12px 16px !important;
+}
+
+.index-faq-section__sidebar-card {
+  padding: 18px !important;
+}
+
+.index-final-cta-section__title-block {
+  margin-bottom: 24px !important;
+}
+
+.index-final-cta-section__card {
+  padding: 20px !important;
+}
+
+.index-final-cta-section__form {
+  gap: 12px !important;
+}
+
+.index-final-cta-section__form-row {
+  gap: 12px !important;
+}
+
+.index-lead-capture-section .index-lc-field input,
+  .index-lead-capture-section .index-lc-field textarea,
+  .index-final-cta-section__input {
+  padding: 13px 14px !important;
+  font-size: 1rem !important;
+  min-height: 48px !important;
+}
+
+.index-lead-capture-section .index-lc-field textarea {
+  min-height: 72px !important;
+}
+
+.index-lead-capture-section .index-lc-submit-btn,
+  .index-final-cta-section__submit,
+  .index-process-section .process-cta .btn-primary,
+  .index-hero-section .btn-primary {
+  width: 100% !important;
+  min-height: 52px !important;
+  padding: 15px 20px !important;
+  font-size: 1rem !important;
+}
+
+.index-services-section .permit-divider-wrapper {
+  display: none !important;
+}
+
+.index-services-section {
+  padding-bottom: 40px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
