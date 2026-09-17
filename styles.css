@@ -2005,13 +2005,12 @@ html, body { min-height: 100%; }
 body { min-height: 100vh; display: flex; flex-direction: column; }
 main { flex: 1 0 auto; }
 .site-footer { flex-shrink: 0; }
-/* hero */
 .index-hero-section {
   position: relative;
   overflow: visible;
   min-height: 90vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start !important;
   padding: 120px 0 80px;
   background-color: var(--bg-light);
   color: var(--text-dark);
@@ -2213,10 +2212,10 @@ main { flex: 1 0 auto; }
 
 @media (max-width: 768px) {
   .index-hero-section {
-    min-height: 100vh;
-    padding-top: 100px;
-    padding-bottom: 64px;
-  }
+  min-height: 100vh;
+  padding-top: 56px !important;
+  padding-bottom: 64px;
+}
 
   .index-hero-section .hero-fade-content {
     padding: 0 16px;
@@ -5590,6 +5589,18 @@ html body .index-transparency-section__cards { display: grid !important; }
 
 .index-services-section {
   padding-bottom: 40px !important;
+}
+}
+
+@media (max-width: 768px) {
+section[data-hero-type*="fullscreen"].index-hero-section {
+  min-height: auto !important;
+  padding: 56px 0 40px !important;
+  align-items: flex-start !important;
+}
+
+section[class*="-hero-section"]:first-of-type.index-hero-section {
+  padding-top: 56px !important;
 }
 }
 /* mobile-submenu-overflow-fix */
