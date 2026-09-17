@@ -5273,6 +5273,23 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 /* zappy-self-heal */
 html body .index-transparency-section__cards { display: grid !important; }
 
+
+@media (max-width: 1024px) {
+.index-transparency-section__cards {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+}
+
+@media (max-width: 768px) {
+.index-transparency-section__cards {
+  grid-template-columns: 1fr !important;
+  gap: 16px !important;
+}
+
+.index-transparency-section__card {
+  padding: 20px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
