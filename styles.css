@@ -2232,7 +2232,7 @@ main { flex: 1 0 auto; }
   .index-hero-section .display-xl {
   font-size: 2.2rem;
   line-height: 1.25;
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
 }
 
   .index-hero-section .hero-subtitle {
@@ -5602,6 +5602,12 @@ section[data-hero-type*="fullscreen"].index-hero-section {
 
 section[class*="-hero-section"]:first-of-type.index-hero-section {
   padding-top: 56px !important;
+}
+}
+
+@media (max-width: 768px) {
+[data-layout-spec="בית-hero"] .hero-copy .display-xl {
+  margin-bottom: 24px !important;
 }
 }
 /* mobile-submenu-overflow-fix */
