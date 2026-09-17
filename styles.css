@@ -5610,6 +5610,58 @@ section[class*="-hero-section"]:first-of-type.index-hero-section {
   margin-bottom: 24px !important;
 }
 }
+
+.index-hero-section .display-xl .headline-line-bold {
+  display: block;
+  font-weight: 800;
+}
+
+.index-hero-section .display-xl .headline-line-semibold {
+  display: block;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+[data-layout-spec="בית-hero"] > [data-zappy-zoom-wrapper="true"],
+  .index-hero-section [data-hero-bg="true"] {
+  display: none !important;
+}
+
+[data-layout-spec="בית-hero"] .hero-fade-content {
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-layout-spec="בית-hero"] .hero-copy {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-hero-section .display-xl,
+  .index-hero-section .hero-subtitle,
+  .index-hero-section .hero-description {
+  text-align: center;
+}
+
+.index-hero-section .trust-bullets {
+  align-items: center;
+}
+
+.index-hero-section .hero-cta-row {
+  justify-content: center;
+}
+
+.index-hero-section .hero-eyebrow {
+  justify-content: center;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
