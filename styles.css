@@ -2042,11 +2042,13 @@ main { flex: 1 0 auto; }
 .index-hero-section .hero-copy {
   max-width: 620px;
   width: 100%;
-  padding: 48px 0;
+  padding: 24px 0px;
   background: linear-gradient(135deg, rgba(240, 244, 250, 0.85) 0%, rgba(250, 250, 247, 0.92) 35%, rgba(237, 241, 248, 0.72) 70%, rgba(230, 236, 244, 0.55) 100%);
   padding-inline-start: 32px;
   padding-inline-end: 32px;
   border-radius: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .index-hero-section .hero-eyebrow {
@@ -2083,7 +2085,7 @@ main { flex: 1 0 auto; }
   line-height: 1.2;
   letter-spacing: -0.01em;
   color: var(--text-dark);
-  margin-bottom: 28px;
+  margin-bottom: 12px;
   text-align: right;
 }
 
@@ -2092,7 +2094,7 @@ main { flex: 1 0 auto; }
   font-weight: 700;
   line-height: 1.4;
   color: var(--text-dark);
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   text-align: right;
 }
 
@@ -2100,7 +2102,7 @@ main { flex: 1 0 auto; }
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text-muted);
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   text-align: right;
   max-width: 540px;
 }
@@ -2108,7 +2110,7 @@ main { flex: 1 0 auto; }
 .index-hero-section .trust-bullets {
   list-style: none;
   padding: 0;
-  margin: 0 0 28px;
+  margin: 0px 0px 24px;
   display: flex;
   flex-direction: row;
   gap: 0px;
