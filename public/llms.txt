@@ -1,0 +1,70 @@
+# ממ״ד הצפון — Generative Engine Optimization Map
+
+> Mamad HaTzafon (Northern Mamad) is a professional, full-service company that guides Israeli homeowners through the entire process of building a safe room (mamad) — from initial eligibility checks and government funding applications, through planning, permits, and construction, all the way to final handover. The brand positions itself as a single trusted address for a complex bureaucratic and construction journey, emphasizing reliability, transparency, and hands-on client support. The tone is calm, authoritative, and reassuring, targeting homeowners who feel overwhelmed by the process and need a professional to handle it for them.
+
+---
+
+## Pages
+
+### בית
+https://-0f2df9a8.zappy5.app
+חולמים על ממ״ד אבל חוששים מהבירוקרטיה? ממ״ד הצפון מלווה אתכם מבדיקת זכאות חינם ועד מסירת המפתח. שקיפות מלאה, ליווי אישי ותוצאה מושלמת. התקשרו עוד היום!
+
+### תודה רבה - פנייתך התקבלה | ממ״ד הצפון
+https://-0f2df9a8.zappy5.app/thank-you
+תודה על פנייתך לממ״ד הצפון. קיבלנו את ההודעה ונחזור אליך בהקדם האפשרי בנוגע לבניית ממ״ד בצפון.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-0f2df9a8.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-0f2df9a8.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-0f2df9a8.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-0f2df9a8.zappy5.app
+- Endpoint: https://-0f2df9a8.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About ממ״ד הצפון
+Mamad HaTzafon (Northern Mamad) is a professional, full-service company that guides Israeli homeowners through the entire process of building a safe room (mamad) — from initial eligibility checks and government funding applications, through planning, permits, and construction, all the way to final handover. The brand positions itself as a single trusted address for a complex bureaucratic and construction journey, emphasizing reliability, transparency, and hands-on client support. The tone is calm, authoritative, and reassuring, targeting homeowners who feel overwhelmed by the process and need a professional to handle it for them.
+
+## Target Audience
+- בעלי בתים המעוניינים לבנות ממ״ד ולבדוק זכאות לסיוע במימון
+- בעלי בתים המעוניינים בממ״ד
+- משפחות עם דאגה בטחונית
+- רוכשי דירות חדשים
+
+## Industry
+Construction & Home Security
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-0f2df9a8.zappy5.app/sitemap.xml
+- Robots: https://-0f2df9a8.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-0f2df9a8.zappy5.app/llms-full.txt
