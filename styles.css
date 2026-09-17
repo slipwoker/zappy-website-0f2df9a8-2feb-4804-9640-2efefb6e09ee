@@ -2043,10 +2043,10 @@ main { flex: 1 0 auto; }
   max-width: 620px;
   width: 100%;
   padding: 48px 0;
-  background: linear-gradient(to left, rgba(250, 250, 247, 0.98) 0%, rgba(250, 250, 247, 0.95) 55%, rgba(250, 250, 247, 0) 100%);
+  background: linear-gradient(135deg, rgba(23,32,51,0.06) 0%, rgba(30,107,255,0.08) 40%, rgba(250,250,247,0.55) 70%, rgba(217,222,231,0.35) 100%);
   padding-inline-start: 32px;
   padding-inline-end: 32px;
-  border-radius: 0;
+  border-radius: 16px;
 }
 
 .index-hero-section .hero-eyebrow {
@@ -2110,18 +2110,23 @@ main { flex: 1 0 auto; }
   padding: 0;
   margin: 0 0 28px;
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  flex-direction: row;
+  gap: 0px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .index-hero-section .trust-bullets li {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--text-dark);
-  text-align: right;
+  text-align: center;
+  justify-content: center;
+  flex: 1 1 auto;
 }
 
 .index-hero-section .bullet-icon {
