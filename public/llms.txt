@@ -32,7 +32,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: mamdn15926@gmail.com
+- Phone: 054-2995310
+- Phone (tel): tel:0542995310
+- Address: היוצרים נהריה
 
 ### Contact form
 - URL: https://example.com
