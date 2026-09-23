@@ -5851,6 +5851,20 @@ body {
   font-size: 1rem !important;
 }
 }
+
+@media (max-width: 767px) {
+.navbar img.logo {
+  width: 120px !important;
+  height: 48px !important;
+  max-width: 160px !important;
+  object-fit: contain !important;
+}
+
+.navbar .logo-link, .navbar .nav-brand {
+  width: auto !important;
+  height: auto !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
