@@ -5606,7 +5606,7 @@ html body .index-transparency-section__cards { display: grid !important; }
 
 @media (max-width: 768px) {
 section[data-hero-type*="fullscreen"].index-hero-section {
-  min-height: auto !important;
+  min-height: 520px;
   padding: 56px 0 40px !important;
   align-items: flex-start !important;
 }
@@ -5716,9 +5716,9 @@ body {
 }
 
 .navbar .nav-brand .logo {
-  width: auto !important;
-  height: 44px !important;
-  max-width: 150px !important;
+  width: auto;
+  height: 48px;
+  max-width: 170px;
   display: block !important;
 }
 
