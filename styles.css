@@ -5865,6 +5865,30 @@ body {
   height: auto !important;
 }
 }
+
+body .call-float {
+  position: fixed !important;
+  bottom: 90px !important;
+  right: 20px !important;
+  left: auto !important;
+  top: auto !important;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  background: var(--secondary-color, var(--secondary, #1E6BFF)) !important;
+  color: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 999 !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25) !important;
+  font-size: 24px !important;
+  text-decoration: none !important;
+}
+
+body .call-float i {
+  color: #fff !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
