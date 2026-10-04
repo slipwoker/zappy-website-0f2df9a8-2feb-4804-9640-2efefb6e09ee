@@ -6509,6 +6509,46 @@ html[dir="rtl"] body{overflow-x: clip !important;max-width: 100vw !important;}
 }
 
 
+
+.navbar .lang-switcher-current {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  width: auto !important;
+  min-width: 92px !important;
+  height: 38px !important;
+  padding: 0 12px !important;
+  border: 1px solid var(--border-light, #D9DEE7) !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+}
+
+.navbar .lang-switcher-current svg {
+  width: 18px !important;
+  height: 18px !important;
+  flex-shrink: 0 !important;
+}
+
+.navbar .lang-switcher-label {
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+.navbar .lang-switcher-dropdown .lang-option {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 10px 14px !important;
+  font-size: 0.9rem !important;
+  cursor: pointer !important;
+  color: var(--background-color, var(--background, var(--bg-light, #172033))) !important;
+}
+
+.navbar .lang-switcher-dropdown .lang-option * {
+  color: var(--background-color, var(--background, var(--bg-light, #172033))) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
