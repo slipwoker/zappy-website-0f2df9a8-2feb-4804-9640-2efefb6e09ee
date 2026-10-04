@@ -8,6 +8,7 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
   </url>
   <url>
@@ -17,6 +18,17 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
+  </url>
+  <url>
+    <loc>https://example.com/ru</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
   </url>
   <url>
@@ -26,6 +38,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com/thank-you" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/thank-you" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/thank-you" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/thank-you" />
   </url>
   <url>
@@ -35,6 +48,17 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com/thank-you" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/thank-you" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/thank-you" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/thank-you" />
+  </url>
+  <url>
+    <loc>https://example.com/ru/thank-you</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://example.com/thank-you" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/thank-you" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/thank-you" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/thank-you" />
   </url>
   <url>
@@ -44,6 +68,7 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com/privacy" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy" />
   </url>
   <url>
@@ -53,6 +78,17 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com/privacy" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy" />
+  </url>
+  <url>
+    <loc>https://example.com/ru/privacy</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://example.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy" />
   </url>
   <url>
@@ -62,6 +98,7 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com/terms" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
   </url>
   <url>
@@ -71,6 +108,17 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com/terms" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
+  </url>
+  <url>
+    <loc>https://example.com/ru/terms</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
   </url>
   <url>
@@ -80,6 +128,7 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com/accessibility" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/accessibility" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/accessibility" />
   </url>
   <url>
@@ -89,6 +138,17 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://example.com/accessibility" />
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/accessibility" />
+  </url>
+  <url>
+    <loc>https://example.com/ru/accessibility</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://example.com/accessibility" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/accessibility" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/accessibility" />
   </url>
 </urlset>
