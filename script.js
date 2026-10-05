@@ -1568,6 +1568,106 @@ if (document.readyState === 'complete') {
     }
 })();
 
+/* ZAPPY_CUSTOM_JS_START:f5b86fc5c411 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function () {
+  var STORAGE_KEY = 'zappy_form_scroll_preserve';
+  var SCROLL_KEY = 'zappy_scroll_pos';
+
+  function getRelevantForms() {
+    return Array.prototype.slice.call(document.querySelectorAll('.contact-form'));
+  }
+
+  function serializeForms() {
+    var data = {};
+    getRelevantForms().forEach(function (form, fi) {
+      var inputs = form.querySelectorAll('input, textarea, select');
+      inputs.forEach(function (el) {
+        var name = el.name;
+        if (!name) return;
+        if (el.type === 'checkbox' || el.type === 'radio') {
+          data[name] = el.checked;
+        } else {
+          data[name] = el.value;
+        }
+      });
+    });
+    return data;
+  }
+
+  function restoreForms(data) {
+    if (!data) return;
+    getRelevantForms().forEach(function (form, fi) {
+      var inputs = form.querySelectorAll('input, textarea, select');
+      inputs.forEach(function (el) {
+        var name = el.name;
+        if (!name || !(name in data)) return;
+        if (el.type === 'checkbox' || el.type === 'radio') {
+          el.checked = !!data[name];
+        } else {
+          el.value = data[name];
+        }
+      });
+    });
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(SCROLL_KEY, String(window.scrollY || document.documentElement.scrollTop || 0));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(serializeForms()));
+    } catch (e) {}
+  }
+
+  function restoreState() {
+    try {
+      var forms = localStorage.getItem(STORAGE_KEY);
+      if (forms) {
+        restoreForms(JSON.parse(forms));
+        localStorage.removeItem(STORAGE_KEY);
+      }
+      var scrollPos = parseInt(localStorage.getItem(SCROLL_KEY), 10);
+      if (!isNaN(scrollPos) && scrollPos > 0) {
+        localStorage.removeItem(SCROLL_KEY);
+        // חכה לעיבוד מלא של הדף לפני השחזור
+        requestAnimationFrame(function () {
+          window.scrollTo(0, scrollPos);
+        });
+      }
+    } catch (e) {}
+  }
+
+  // 1) שמירה לפני כל ניווט (החלפת שפה עוברת דרך assign)
+  window.addEventListener('beforeunload', saveState);
+
+  // 2) גיבוי: שמירה גם בלחיצה על אפשרויות השפה
+  document.addEventListener('click', function (e) {
+    var opt = e.target.closest('.lang-option, .mobile-lang-option');
+    if (opt) saveState();
+  }, true);
+
+  // 3) שחזור לאחר טעינת הדף
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () {
+      setTimeout(restoreState, 350);
+    });
+  } else {
+    setTimeout(restoreState, 350);
+  }
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:f5b86fc5c411 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
